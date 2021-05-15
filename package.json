@@ -1,0 +1,23 @@
+{
+  "name": "ssm-lock",
+  "version": "1.0.0",
+  "description": "Creates a lock using SSM and the fact creating parameter is an atomic operation",
+  "main": "s3-lock.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.907.0",
+    "jest": "^26.6.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.26.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.23.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  }
+}
