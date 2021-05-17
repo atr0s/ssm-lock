@@ -2,6 +2,10 @@
 
 Simple class to create a mutex using AWS SSM Parameter Store(https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html) leveraging the fact that creating parameters is an atomic operation.
 
+# Requirements
+
+An execution role that allows creating/deleting SSM parameters
+
 # Example
 
 ```
